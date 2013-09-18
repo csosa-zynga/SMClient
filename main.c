@@ -2,12 +2,14 @@
 
 void Foo();
 void Bar();
+int UpstreamTest();
 
 int main()
 {
    printf("Hello");
    Foo();
-   Bar(); 
+   Bar();
+   UpstreamTest(); 
    return 0;
 }
 
@@ -19,4 +21,9 @@ void Foo()
 void Bar()
 {
   printf("Doing Bar stuff");
+}
+
+int UpstreamTest()
+{
+  return 42;
 }
