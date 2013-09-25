@@ -9,6 +9,9 @@ int main()
    printf("Hello");
    Foo();
    Bar();
+   Bar();
+   Foo();
+   Foo();
    UpstreamTest(); 
    return 0;
 }
